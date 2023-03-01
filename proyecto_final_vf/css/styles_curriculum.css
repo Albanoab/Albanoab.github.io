@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:wght@900&family=Yatra+One&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+    /* Fondo e imágenes de fondo */
+
+    .bgcont  {
+        position: absolute;
+        background-color: rgba(248, 246, 242, 1);
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .bg-image {
+        position: absolute;
+        background-color: rgba(248, 246, 242, 1);
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    #blancobg {
+        background-image: url("/proyecto_final_vf/imagenes/backgrounds/blanco_bg.png");
+    }
+    
+    #blancobg4 {
+        background-image: url("/proyecto_final_vf/imagenes/backgrounds/blanco_bg4.png");
+        top: 96.33%;
+    }
+    
+    #blancobg5 {
+        background-image: url("/proyecto_final_vf/imagenes/backgrounds/blanco_bg5.png");
+        top: 190.66%;
+    } 
+
+    #blancobg6 {
+        background-image: url("/proyecto_final_vf/imagenes/backgrounds/blanco_bg6.png");
+        top: 290.66%;
+    }
+
+    #blancobg7 {
+        background-image: url("/proyecto_final_vf/imagenes/backgrounds/blanco_bg3.png");
+        top: 390.66%;
+    }
+      
+      /* Containers de texto */
+      
+      .contcur {
+
+        background-color: rgba(80, 80, 80, 0.308);
+        padding: 1vh;
+        border-radius: 0.3%;
+        width: 60%; 
+        margin-top: 5%; 
+        font-size: 2vh;
+        font-weight: bold;
+        margin-top: 0 auto;
+        position: relative;
+        margin-left: 35%;
+
+      }      
+        
+      .conttitle {
+        background-color: rgba(248, 246, 242, 1);
+        padding: 2vh;
+        border-radius: 1%;
+        max-height: fit-content 6vh;
+        width: 20%;
+        margin-top: 5%;
+        font-size: 3vh;
+        font-weight: 600;
+        position: relative;
+        margin-left: 30%;
+        margin-top: 0 auto;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        text-align: center;
+
+      }
+
+      .contsectitle {
+        background-color: rgba(248, 246, 242, 1);
+        padding: 2vh;
+        border-radius: 0;
+        width: 40%;
+        margin: 0 auto;
+        font-size: 2.5vh;
+        font-weight: normal;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        margin-top: 5%;
+        margin-left: 55%;
+        font-style: normal;
+
+      }
+
+      .conttext {
+        background-color: rgba(248, 246, 242, 1);
+        padding: 2vh;
+        border-radius: 1%;
+        width: 80%; 
+        margin: 0 auto; 
+        margin-top: 5%;
+        font-size: 2vh;
+        line-height: 3vh;
+        text-align: justify;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: normal;
+        word-spacing: normal;
+        font-weight: 900;
+        white-space: pre-wrap;
+        font-style: normal;
+        
+      }
+
+      /* Sistema de botones */
+
+      .button {
+        position: absolute;
+        display: flex;
+        border-radius: 100%;
+        width: 6vw;
+        height: 6vw;
+        text-align: center;
+        transition: all 0.5s ease;
+        z-index: 1;
+      }
+      
+        #ai {
+        position: fixed;
+        top: 70%;
+        margin-left: 5%;
+      }
+      
+      #inicio {
+        position: fixed;
+        top: 40%;
+        margin-left: 5%;
+      }
+      
+      #musicart {
+        position: fixed;
+        top: 10%;
+        margin-left: 5%;
+      }
+      
+      .button img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+      }
+      
+      .button:hover {
+        transform: scale(1.2);
+      }
+      
+      .button .text {
+        position: relative;
+        top: 75%;
+        left: 100%;
+        transform: translate(-50%, -50%);
+        font-size: 2vw;
+        color: rgb(70, 70, 70);
+        text-align: right;
+        visibility: hidden;
+      }
+      
+      .button:hover .text {
+        visibility: visible;
+      }
+    
