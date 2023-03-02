@@ -12,6 +12,8 @@ Ejercicio web Argentina programa 4.0 - Ticmas Academy - Primeros pasos del desar
 
 -Página Curriculum - sistema de botones con redirección, contenedores de texto e imágenes background.
 
+La web no es responsive.
+
 # Diseño
 
 Toda el arte e iconos de la web está hecha con motores de generación de imagen.
